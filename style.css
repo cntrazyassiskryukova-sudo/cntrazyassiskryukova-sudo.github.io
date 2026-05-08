@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #d9d9d9;
+  padding: 0 20px 0 20px;
 }
 
 ul {
@@ -86,6 +87,11 @@ a {
 .work-cards .work-card .work-card-description{
     margin-bottom: 50px;
 }
+
+.work-cards .work-card .work-card-texts{
+    margin-left: 50px;
+}
+
 
 
 
