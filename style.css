@@ -76,6 +76,12 @@ a {
 
 .work .work-card {
     border-radius: 10px;
+    max-width: 200px;
+
+}
+
+.work .work-card img{
+    max-width: inherit;
 }
 
 
