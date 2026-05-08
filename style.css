@@ -36,5 +36,13 @@ ul {
     padding: 10px;
 }
 
+.main-block-cart {
+    display: flex;
+}
+
+.main-block-cart .main-block-cart-photo {
+    max-width: 200px;
+}
+
 
 
