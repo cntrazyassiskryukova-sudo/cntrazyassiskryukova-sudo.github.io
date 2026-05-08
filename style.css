@@ -24,8 +24,10 @@ ul {
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+  grid: auto-flow / repeat(3, 80px);
+  width: 500px;
+  justify-content: space-evenly;
 }
 
 
