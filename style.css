@@ -28,6 +28,6 @@ ul {
 }
 
 .menu > ul > li{
-    justify-content: space-between
+    margin: 0 10 0 0;
 }
 
