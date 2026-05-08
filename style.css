@@ -40,8 +40,16 @@ ul {
     display: flex;
 }
 
+.main-block-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
 .main-block-cart .main-block-cart-photo {
     max-width: 400px;
+}
+
+.main-block-cart .main-block-cart-text {
+    margin-left: 50px;
 }
 
 .main-block-cart .main-block-cart-photo img{
