@@ -10,3 +10,11 @@ body {
   color: #333;
   background-color: #f4f4f4;
 }
+
+.header {
+    display: flex;
+}
+
+.menu > ul{
+    display: flex;
+}
