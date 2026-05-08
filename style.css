@@ -78,6 +78,7 @@ a {
 .work-cards .work-card {
     border-radius: 10px;
     display: flex;
+    
 }
 
 .work-cards .work-card img{
