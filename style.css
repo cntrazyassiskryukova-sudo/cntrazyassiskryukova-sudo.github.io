@@ -16,8 +16,8 @@ ul {
 }
 
 .logo {
-    min-width: 50px;
     max-width: 100px;
+    margin-right: 50px;
 }
 
 .header {
