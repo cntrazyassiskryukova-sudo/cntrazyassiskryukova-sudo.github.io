@@ -44,5 +44,8 @@ ul {
     max-width: 200px;
 }
 
+.main-block-cart .main-block-cart-photo img{
+    max-width: inherit;
+}
 
 
