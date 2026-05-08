@@ -74,14 +74,18 @@ a {
     margin-bottom: 20px;
 }
 
-.work .work-card {
+.work-cards .work-card {
     border-radius: 10px;
     max-width: 200px;
-
+    display: flex;
 }
 
-.work .work-card img{
+.work-cards .work-card img{
     max-width: inherit;
+}
+
+.work-cards .work-card .work-card-description{
+    margin-bottom: 50px;
 }
 
 
