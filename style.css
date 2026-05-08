@@ -76,12 +76,11 @@ a {
 
 .work-cards .work-card {
     border-radius: 10px;
-    max-width: 200px;
     display: flex;
 }
 
 .work-cards .work-card img{
-    max-width: inherit;
+    max-width: 400px;
 }
 
 .work-cards .work-card .work-card-description{
