@@ -64,4 +64,20 @@ a {
     max-width: inherit;
 }
 
+.work .work-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work .work-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work .work-card {
+    border-radius: 10px;
+}
+
+
+
 
