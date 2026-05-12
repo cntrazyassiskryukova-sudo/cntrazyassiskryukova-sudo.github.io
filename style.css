@@ -31,7 +31,6 @@ button {
   transition: all 0.25s ease;
 }
 
-/* ========== HEADER ========== */
 .header {
   display: flex;
   justify-content: space-between;
@@ -87,7 +86,6 @@ button {
   width: 100%;
 }
 
-/* ========== ГЛАВНАЯ СТРАНИЦА ========== */
 .main-block {
   padding: 20px 0 60px 0;
   max-width: 1200px;
@@ -157,7 +155,6 @@ button {
   text-align: justify;
 }
 
-/* второй блок на главной (без фото) */
 .main-block-cart:last-child {
   background: linear-gradient(135deg, #ffffff 0%, #fefaf5 100%);
 }
@@ -166,7 +163,6 @@ button {
   padding: 15px 10px;
 }
 
-/* ========== ОБЩИЕ СТИЛИ ДЛЯ СТРАНИЦ (work, services, contacts) ========== */
 .work {
   max-width: 1200px;
   margin: 0 auto 35px auto;
@@ -275,50 +271,9 @@ button {
   transform: translateY(1px);
 }
 
-/* ========== СТРАНИЦА КОНТАКТОВ (особый стиль: центрирование) ========== */
-/* последняя страница — карточка с ссылкой по центру */
 
-
-/* ========== ФУТЕР ========== */
 .footer {
   height: 50px;
   margin-top: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
-}
-
-/* ========== АДАПТИВНОСТЬ (не меняем структуру) ========== */
-@media (max-width: 900px) {
-  .main-block-cart {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-  }
-
-  .work-card {
-    flex-direction: column;
-  }
-
-  .work-card img {
-    max-width: 100%;
-  }
-
-  .work-card-texts {
-    margin-left: 0;
-    padding: 25px;
-  }
-
-  .menu {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .header {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .work .work-title {
-    font-size: 2rem;
-  }
 }
