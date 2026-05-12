@@ -277,13 +277,6 @@ button {
 
 /* ========== СТРАНИЦА КОНТАКТОВ (особый стиль: центрирование) ========== */
 /* последняя страница — карточка с ссылкой по центру */
-.body .work:last-of-type,
-.body .work-cards:last-of-type {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 
 /* ========== ФУТЕР ========== */
